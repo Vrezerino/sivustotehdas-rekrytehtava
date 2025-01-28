@@ -6,7 +6,7 @@
 
 <h4>2. Miksi metodissa ThisWeekBlock::build() lisätään cache tag "sivustotehdas:weekly"?</h4>
 
-   — Jos wrapperin viikkosisältö muuttuu, sen välimuisti vanhentuu ja wrapper päivittyy.
+   — Jos blockin viikkosisältö muuttuu, sen välimuisti vanhentuu ja blokki päivittyy.
 
 <h4>3. Miksi metodissa ThisWeekBlock::build() lisätään cache tag "node:".$node->id()?</h4>
 
