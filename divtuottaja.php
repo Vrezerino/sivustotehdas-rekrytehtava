@@ -27,10 +27,10 @@ class DivTuottaja
         $borderColor = $level % 2 === 0 ? 'red' : 'blue';
 
         // Tyylittele div
-        $style = "border: 2px solid $borderColor; margin: 10px; padding: 10px;";
+        $style = "border: 2px solid $borderColor; margin: 10x; padding: 10px;";
 
         return <<<HTML
-        <div style="$style">Level $level{$this->tuotaDiveja($count - 1,$level + 1)}</div>
+        <div style="$style">{$this->tuotaDiveja($count - 1,$level + 1)}</div>
         HTML;
     }
 }
