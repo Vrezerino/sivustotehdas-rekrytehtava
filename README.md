@@ -9,9 +9,8 @@
    — Jos wrapperin viikkosisältö muuttuu, sen välimuisti vanhentuu ja wrapper päivittyy.
 
 3. Miksi metodissa ThisWeekBlock::build() lisätään cache tag "node:".$node->id()?
-   — Yksittäisillekin nodeille annetaan tagi, koska yhden muuttuessa (poistuessa tai päivittyessä) sen näkymä päivittyy.
 
-Koko viikkonäkymän välimuistia ei tarvitse vanhentaa.
+   — Yksittäisillekin nodeille annetaan tagi, koska yhden muuttuessa (poistuessa tai päivittyessä) sen näkymä päivittyy. Koko viikkonäkymän välimuistia ei tarvitse vanhentaa.
 
 4. Mikä syntaksivirhe metodissa ThisWeekBlock::getFieldIlmoittautuminenPaattyyNodes() on?
 
